@@ -517,29 +517,29 @@
 
         <form class="modal-form">
           <div class="modal-form-field">
-            <label class="modal-label" for="modal-user-name">Name</label>
+            <label class="modal-label" for="user-name">Name</label>
             <div class="input-box">
               <input
                 class="modal-input"
                 type="text"
-                name="modal-user-name"
-                id="modal-user-name"
+                name="user-name"
+                id="user-name"
                 required
               />
-              <svg class="input-icon" width="18" height="18">
+              <svg class="input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
           </div>
 
           <div class="modal-form-field">
-            <label class="modal-label" for="modal-user-phone">Phone</label>
+            <label class="modal-label" for="user-phone">Phone</label>
             <div class="input-box">
               <input
                 class="modal-input"
                 type="tel"
-                name="modal-user-phone"
-                id="modal-user-phone"
+                name="user-phone"
+                id="user-phone"
                 pattern="^\+[0-9]{12}"
                 required
               />
@@ -550,13 +550,13 @@
           </div>
 
           <div class="modal-form-field">
-            <label class="modal-label" for="modal-user-email">Email</label>
+            <label class="modal-label" for="user-email">Email</label>
             <div class="input-box">
               <input
                 class="modal-input"
                 type="email"
-                name="modal-user-email"
-                id="modal-user-email"
+                name="user-email"
+                id="user-email"
                 required
               />
               <svg class="input-icon" width="18" height="24">
@@ -566,11 +566,11 @@
           </div>
 
           <div class="modal-textarea-box">
-            <label class="modal-label" for="modal-user-comment">Comment</label>
+            <label class="modal-label" for="user-comment">Comment</label>
             <textarea
               class="modal-textarea"
-              name="modal-user-comment"
-              id="modal-user-comment"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -579,18 +579,19 @@
             <input
               class="privacy-input visually-hidden"
               type="checkbox"
-              name="modal-user-privacy"
-              id="modal-user-privacy"
+              name="user-privacy"
+              value="true"
+              id="user-privacy"
               required
             />
-            <label class="privacy-label" for="modal-user-privacy">
+            <label class="privacy-label" for="user-privacy">
               <span class="privacy-icon-box">
                 <svg class="privacy-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a class="privacy-link" href="#">privacy policy</a>
+              <a class="privacy-link" href="#">Privacy Policy</a>
             </label>
           </div>
           <button class="modal-btn btn" type="submit">Send</button>
