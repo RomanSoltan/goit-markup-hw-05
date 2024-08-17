@@ -720,7 +720,6 @@ ol {
 
 .privacy-input:checked + .privacy-label > .privacy-icon-box {
   fill: var(--c-light);
-  border-color: var(--c-pressed-state);
   background-color: var(--c-pressed-state);
   border: none;
 }
